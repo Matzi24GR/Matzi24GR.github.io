@@ -1,0 +1,119 @@
+body {
+    background-color: #ececec;
+    font-family: sans-serif;
+}
+
+.dark-mode {
+    background-color: #31313f;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mainCard .profile {
+    width: 80px;
+    border: #23232e;
+    border-style: solid;
+    border-radius: 80px;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    display: block;
+    background-color: white;
+    padding: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button {
+    background-color: #0064ff;
+    border-style: hidden;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 4px;
+    padding: 20px;
+    padding-top: 1px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.dark-mode .card {
+    background-color: #404052;
+}
+
+.card h1 {
+    text-align: start;
+}
+
+.card img {
+    border-style: none;
+    width: auto;
+    border-radius: 4px;
+}
+
+.mainCard {
+    border-radius: 4px;
+    padding: 20px;
+    padding-top: 1px;
+    margin: 20px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.socials img{
+    height: 35px;
+    display: initial;
+}
+
+.socials div {
+    width: 35px;
+    margin: 20px;
+    height: 30px;
+    overflow: hidden;
+    overflow-y: hidden;
+    border-radius: 10px;
+    border: #31313f;
+    max-lines: 1;
+    padding: 4px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 35px;
+}
+
+.socials div:hover {
+    width: fit-content;
+}
+
+.dark-mode .mainCard {
+    background-color: #404052;
+}
+
+a {
+    color: black;
+}
+
+.dark-mode a {
+    color: white;
+}

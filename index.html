@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Website</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <button id="switch-lang">Switch Language</button>
+      <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
+
+    <div class="mainCard">
+      <img src="profile.jpg" alt="" class="profile">
+      <h1 lang="en">Georgios Matziaras</h1>
+      <h1 lang="el">Γεώργιος Ματζιάρας</h1>
+      <div class="socials">
+        <div><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt=""><a href="mailto:ggeomat@gmail.com">Email</a></div>
+        <div><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt=""><a href="https://github.com/Matzi24GR">Github</a></div>
+        <div><img src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" alt=""><a href="https://www.linkedin.com/in/georgios-matziaras">LinkedIn</a></div>
+        <div><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/640px-Facebook_f_logo_%282021%29.svg.png" alt=""> <a href="https://www.facebook.com/profile.php?id=100008223915958">Facebook</a></div>
+        <div> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt=""> <a href="https://twitter.com/matziaras">Twitter</a></div>
+      </div>
+    </div>
+    <h1 lang="en">Projects</h1>
+    <h1 lang="el">Πρότζεκτ</h1>
+    <hr>
+    <div class="card">
+      <h1>Open Eclass Android Client</h1>
+      <ul>
+        <li>MVVM Architecture</li>
+        <li>Jetpack Compose</li>
+        <li>Room Database</li>
+        <li>Retrofit</li>
+        <li>Hilt Dependency Injection</li>
+      </ul>
+      <a href="https://play.google.com/store/apps/details?id=com.geomat.openeclassclient"><img src="https://img.shields.io/badge/Google_Play-100000?style=for-the-badge&logo=google-play&logoColor=white" alt=""></a>
+      <a href="https://github.com/Matzi24GR/Open-eClass-Android-Client"><img src=" 	https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt=""></a>
+    </div>
+    <div class="card">
+      <h1 lang="en">Foititopoli</h1>
+      <h1 lang="el">Foititopoli</h1>
+      A variation of the board game Monopoly in Java. Software Engineering course, University of Macedonia, 2021. 
+      <br>
+      <br>
+      <a href="https://github.com/UoM2021-CSC402-Team15/foititopoli"><img src=" 	https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt=""></a>
+    </div>
+  </main>
+  <footer>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1dsetWQ7Jx0uygKHPH0GBk?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
