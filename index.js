@@ -5,7 +5,7 @@ function toggleDarkMode() {
 
 $('[lang="el"]').hide();
     
-$('#switch-lang').click(function() {
+function toogleLanguage() {
   $('[lang="el"]').toggle();
   $('[lang="en"]').toggle();
-});
+}
