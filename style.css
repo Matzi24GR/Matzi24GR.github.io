@@ -29,10 +29,17 @@ h1 {
 }
 
 button {
-    background-color: #0064ff;
+    background-color: #7f9bc5;
     border-style: hidden;
     padding: 8px;
     border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #3877d4;
 }
 
 header {
@@ -95,17 +102,18 @@ header {
     background-color: #404052;
 }
 
-a {
-    color: black;
-}
-
-.dark-mode a {
-    color: white;
-}
-
 .projects {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+a img {
+    transition-duration: 0.2s;
+}
+
+a img:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 10px;
+    opacity: 85%;
 }
