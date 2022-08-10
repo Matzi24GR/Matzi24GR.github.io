@@ -30,17 +30,25 @@ h1 {
 }
 
 button {
-    background-color: #7f9bc5;
-    border-style: hidden;
+    background-color: none;
+    border-radius: 16px;
+    border: none;
     padding: 8px;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
     transition-duration: 0.5s;
 }
 
+.dark-mode button {
+    background-color: #31313f;
+    color: white;
+}
+
 button:hover {
-    background-color: #3877d4;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dark-mode button:hover {
+    background-color: #404052;
 }
 
 header {
