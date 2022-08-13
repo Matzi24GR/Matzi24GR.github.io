@@ -22,6 +22,7 @@ setDarkModeButton();
 function toogleLanguage() {
   $('[lang="el"]').toggle();
   $('[lang="en"]').toggle();
+  $(".darkModeButton:hidden").text(darkModeString);
   darkModeString = $(".darkModeButton:visible").text();
   setDarkModeButton();
 }
