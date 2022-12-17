@@ -9,16 +9,19 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
+
 <body>
   <main>
+
     <header>
       <button lang="en" onclick="toogleLanguage()"> <u>English</u> / Greek    </button>
       <button lang="el" onclick="toogleLanguage()"> Αγγλικά / <u>Ελληνικά</u> </button>
       <button class="darkModeButton" lang="en" onclick="toggleDarkMode()">Light Mode / Dark Mode</button>
       <button class="darkModeButton" lang="el" onclick="toggleDarkMode()">Ανοιχτό Θέμα / Σκούρο Θέμα</button>
     </header>
+
     <div class="mainCard">
-      <img src="profile.jpg" alt="" class="profile">
+      <img src="resources/profile.jpg" alt="" class="profile">
       <div class="name" lang="en">
         <h1 class="expanding">Georgios</h1><h1 class="expanding">Matziaras</h1>
       </div>
@@ -27,36 +30,49 @@
         <a rel="me" href="mailto:ggeomat@gmail.com"><img src="https://img.shields.io/badge/Email-d44638?style=for-the-badge&logo=gmail&logoColor=white" width="85.25" height="28" alt=""></a>
         <a rel="me" href="https://github.com/Matzi24GR"><img src="https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white" width="95.5" height="28" alt=""></a>
         <a rel="me" href="https://www.linkedin.com/in/georgios-matziaras"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="111" height="28" alt=""></a>
+
         <a rel="me" href="https://www.facebook.com/profile.php?id=100008223915958"><img src="https://img.shields.io/badge/Facebook-3B5998?style=for-the-badge&logo=facebook&logoColor=white" width="114" height="28" alt=""></a>
         <a rel="me" href="https://twitter.com/matziaras"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" width="103.75" height="28" alt=""></a>
         <a rel="me" href="https://fosstodon.org/@geomat"><img src="https://img.shields.io/badge/Mastodon-6364ff?style=for-the-badge&logo=mastodon&logoColor=white" width="118" height="28" alt=""></a>
       </div>
     </div>
+
     <h1 lang="en">Projects</h1>
     <h1 lang="el">Πρότζεκτ</h1>
+
     <hr>
+
     <div class="projects">
-      <div class="card">
-        <h1>Open Eclass Android Client</h1>
-        <ul>
-          <li>MVVM Architecture</li>
-          <li>Jetpack Compose</li>
-          <li>Room Database</li>
-          <li>Retrofit</li>
-          <li>Hilt Dependency Injection</li>
-        </ul>
-        <a href="https://play.google.com/store/apps/details?id=com.geomat.openeclassclient"><img src="https://img.shields.io/badge/Google_Play-01875f?style=for-the-badge&logo=google-play&logoColor=white" width="135.75" height="28" alt=""></a>
-        <a href="https://github.com/Matzi24GR/Open-eClass-Android-Client"><img src="https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white" width="95.5" height="28" alt=""></a>
+      <div class="project">
+        <img src="resources/eclass.png" alt=""  width="800px">
+        <div class="card">
+          <h1>Open Eclass Android Client</h1>
+          <ul>
+            <li>MVVM Architecture</li>
+            <li>Jetpack Compose</li>
+            <li>Room Database</li>
+            <li>Retrofit</li>
+            <li>Hilt Dependency Injection</li>
+          </ul>
+          <a href="https://play.google.com/store/apps/details?id=com.geomat.openeclassclient"><img src="https://img.shields.io/badge/Google_Play-01875f?style=for-the-badge&logo=google-play&logoColor=white" width="135.75" height="28" alt=""></a>
+          <a href="https://github.com/Matzi24GR/Open-eClass-Android-Client"><img src="https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white" width="95.5" height="28" alt=""></a>
+        </div>
       </div>
-      <div class="card">
-        <h1 lang="en">Foititopoli</h1>
-        <h1 lang="el">Φοιτητόπολη</h1>
-        <p lang="en">A variation of the board game Monopoly in Java. Software Engineering course, University of Macedonia, 2021.</p>
-        <p lang="el">Μία παραλλαγή της κλασσικού παιχνιδιού Monopoly σε Java. Για το μάθημα Τεχνολογία Λογισμικού στο Πανεπιστήμιο Μακεδονίας, 2021</p>
-        <a href="https://github.com/UoM2021-CSC402-Team15/foititopoli"><img
-            src="https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white" width="95.5" height="28" alt=""></a>
+
+      <div class="project reverse">
+        <div class="card">
+          <h1 lang="en">Foititopoli</h1>
+          <h1 lang="el">Φοιτητόπολη</h1>
+          <p lang="en">A variation of the board game Monopoly in Java. Software Engineering course, University of Macedonia, 2021.</p>
+          <p lang="el">Μία παραλλαγή της κλασσικού παιχνιδιού Monopoly σε Java. Για το μάθημα Τεχνολογία Λογισμικού στο Πανεπιστήμιο Μακεδονίας, 2021</p>
+          <a href="https://github.com/UoM2021-CSC402-Team15/foititopoli"><img
+              src="https://img.shields.io/badge/GitHub-333?style=for-the-badge&logo=github&logoColor=white" width="95.5" height="28" alt=""></a>
+        </div>
+        <img src="resources/foititopoli.png" alt=""  width="800px">
       </div>
+
     </div>
+
   </main>
   <footer>
   </footer>
