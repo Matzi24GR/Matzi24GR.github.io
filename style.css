@@ -76,14 +76,10 @@ header {
     text-align: start;
 }
 
-.card img {
-    border-style: none;
+.card img, .mainCard img {
+    border-radius: 5px;
+    height: 35px;
     width: auto;
-    border-radius: 4px;
-}
-
-.mainCard img {
-    border-radius: 4px;
 }
 
 .mainCard {
@@ -114,11 +110,12 @@ header {
 
 .projects {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
-    row-gap: 100px;
-    padding-top: 50px;
+    align-items: center;
+    row-gap: 80px;
+    padding: 1%;
 }
 
 .project {
@@ -126,6 +123,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: fit-content;
 }
 
 .project > .card {
@@ -134,8 +132,8 @@ header {
 }
 
 .project > img {
-    max-width: 80%;
-    flex: 40%;
+    max-width: 90%;
+    flex: 50%;
     border-radius: 12px;
 }
 
